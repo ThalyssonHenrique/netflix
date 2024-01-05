@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.netflix-img {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.link-header {
+    text-align: center;
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.input-search {
+    margin-left: 120px;
+    height: 30px;
+    width: 230px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.input-search::placeholder {
+    color: white;
+    font-weight: 500;
+
+}
+
+.paragraph-infantil {
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.logo-perfil {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.sino-img {
+    width: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.seta-img{
+    width: 18px;
+    margin-left: 13px;
+    cursor: pointer;
+}
